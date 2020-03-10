@@ -347,15 +347,15 @@ We use RPM package definitions to build and install individual packages into an 
 RPM itself is not in the image - it's just a common and convenient package definition format.
 
 We currently package the following major third-party components:
-* Linux kernel ([background](https://en.wikipedia.org/wiki/Linux), [packaging](packages/kernel/))
-* glibc ([background](https://www.gnu.org/software/libc/), [packaging](packages/glibc/))
-* Buildroot as build toolchain ([background](https://buildroot.org/), via the [SDK](https://github.com/bottlerocket-os/bottlerocket-sdk))
-* GRUB, with patches for partition flip updates ([background](https://www.gnu.org/software/grub/), [packaging](packages/grub/))
-* systemd as init ([background](https://en.wikipedia.org/wiki/Systemd), [packaging](packages/systemd/))
-* wicked for networking ([background](https://github.com/openSUSE/wicked), [packaging](packages/wicked/))
-* containerd ([background](https://containerd.io/), [packaging](packages/containerd/))
-* Kubernetes ([background](https://kubernetes.io/), [packaging](packages/kubernetes/))
-* aws-iam-authenticator ([background](https://github.com/kubernetes-sigs/aws-iam-authenticator), [packaging](packages/aws-iam-authenticator/))
+* Linux kernel ([upstream](https://en.wikipedia.org/wiki/Linux), [packaging](packages/kernel/))
+* glibc ([upstream](https://www.gnu.org/software/libc/), [packaging](packages/glibc/))
+* Buildroot as build toolchain ([upstream](https://buildroot.org/), via the [SDK](https://github.com/bottlerocket-os/bottlerocket-sdk))
+* GRUB, with patches for partition flip updates ([upstream](https://www.gnu.org/software/grub/), [packaging](packages/grub/))
+* systemd as init ([upstream](https://en.wikipedia.org/wiki/Systemd), [packaging](packages/systemd/))
+* wicked for networking ([upstream](https://github.com/openSUSE/wicked), [packaging](packages/wicked/))
+* containerd ([upstream](https://containerd.io/), [packaging](packages/containerd/))
+* Kubernetes ([upstream](https://kubernetes.io/), [packaging](packages/kubernetes/))
+* aws-iam-authenticator ([upstream](https://github.com/kubernetes-sigs/aws-iam-authenticator), [packaging](packages/aws-iam-authenticator/))
 
 For further documentation or to see the rest of the packages, see the [packaging directory](packages/).
 
